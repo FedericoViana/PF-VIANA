@@ -5,6 +5,12 @@
 
 }
 
+@import './sections-sass/index';
+@import './sections-sass/contacto';
+@import'./sections-sass/faq';
+@import'./sections-sass/sobre_nosotros';
+@import'./sections-sass/tienda';
+
 
 html {
     height: 100vh;

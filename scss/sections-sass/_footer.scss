@@ -1,0 +1,28 @@
+/*-------Footer-------*/
+
+footer {
+    color: bisque;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer1 {
+    font-family: sans-serif;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: rgb(18, 63, 63);
+}
+
+footer p {
+    font-size: medium;
+    text-align: center;
+}

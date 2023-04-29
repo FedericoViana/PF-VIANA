@@ -2,102 +2,8 @@
   margin: 0;
   padding: 0; }
 
-h1 {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  font-size: 7rem;
-  font-family: 'Itim';
-  color: #e084af;
-  text-shadow: 1px 1px 1px #ad2fc0; }
-
-.carousel {
-  margin: 0%; }
-
-.fotos-de-inicio {
-  margin: 20px; }
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-auto-columns: 300px 1fr;
-  gap: 7px 7px;
-  grid-auto-flow: row;
-  grid-template-areas: "text imagen ";
-  width: 90%;
-  height: 90%;
-  padding-bottom: 30px; }
-
-.text {
-  grid-area: text; }
-
-.text h3 {
-  margin: 15px;
-  text-align: center; }
-
-.text h3 p a {
-  font-family: 'Dosis', sans-serif; }
-
-div .text .boton-index {
-  align-items: center; }
-
-.imagen {
-  grid-area: imagen; }
-
-.img-data {
-  width: 500px;
-  box-shadow: 0px 1px 10px black;
-  border: 2px; }
-
-.boton-index {
-  display: flex;
-  justify-content: center;
-  margin: 0px 200px; }
-
-div .text {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center; }
-
 html {
   height: 100vh; }
-
-.barra {
-  justify-content: end;
-  padding: 10px;
-  font-size: 2rem; }
-
-.secciones {
-  font-family: 'Abel', sans-serif;
-  font-weight: bold;
-  font-style: oblique;
-  color: #857981 !important; }
-
-.marca {
-  font-family: 'Abel', sans-serif;
-  font-style: oblique;
-  font-weight: bold;
-  color: #e084af;
-  font-size: 3rem; }
-
-.marca:hover {
-  color: #d15be4; }
-
-.barra1 {
-  background-color: rgba(0, 0, 0, 0.034) !important; }
-
-.body1 {
-  min-height: 100vh;
-  display: grid;
-  align-items: end;
-  align-content: space-between; }
-
-body {
-  background-color: #f3d5f8;
-  background-size: cover; }
 
 /*-------Index-------*/
 h1 {
@@ -159,6 +65,68 @@ div .text {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center; }
+
+/*-------Contacto-------*/
+.body-contacto {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+
+.campo {
+  width: 500px; }
+
+label {
+  font-size: x-large;
+  font-family: 'Dosis', sans-serif; }
+
+.boton {
+  color: #661eec;
+  font-size: larger;
+  background-color: #20adad !important;
+  font-family: 'Dosis', sans-serif !important; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px; }
+
+.footer-contacto {
+  margin-top: auto; }
+
+/*-------FAQ-------*/
+.body-faq {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+
+.footer-faq {
+  margin-top: auto; }
+
+.consultas {
+  margin: 30px; }
+
+/*-------Sobre nosotros-------*/
+.body-sn {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+
+p {
+  font-family: 'Dosis', sans-serif;
+  font-size: x-large;
+  margin: 15px; }
+
+.footer-sn {
+  margin-top: auto; }
+
+div.yt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.ventana {
+  margin: 20px; }
 
 /*-------Tienda-------*/
 h2 {
@@ -241,70 +209,8 @@ div .card-body {
   justify-content: center; }
 
 .boton {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(66, 211, 221, 0.6) !important;
   border: #423d3d; }
-
-/*-------Contacto-------*/
-.body-contacto {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%; }
-
-.campo {
-  width: 500px; }
-
-label {
-  font-size: x-large;
-  font-family: 'Dosis', sans-serif; }
-
-.boton {
-  color: #661eec;
-  font-size: larger;
-  background-color: #20adad !important;
-  font-family: 'Dosis', sans-serif !important; }
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 30px; }
-
-.footer-contacto {
-  margin-top: auto; }
-
-/*-------Sobre nosotros-------*/
-.body-sn {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%; }
-
-p {
-  font-family: 'Dosis', sans-serif;
-  font-size: x-large;
-  margin: 15px; }
-
-.footer-sn {
-  margin-top: auto; }
-
-div.yt {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.ventana {
-  margin: 20px; }
-
-/*-------FAQ-------*/
-.body-faq {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%; }
-
-.footer-faq {
-  margin-top: auto; }
-
-.consultas {
-  margin: 30px; }
 
 /*-------Footer-------*/
 footer {
@@ -327,6 +233,16 @@ footer {
 footer p {
   font-size: medium;
   text-align: center; }
+
+.body1 {
+  min-height: 100vh;
+  display: grid;
+  align-items: end;
+  align-content: space-between; }
+
+body {
+  background-color: #f3d5f8;
+  background-size: cover; }
 
 /*-------Medias Query-------*/
 @media (max-width: 1440px) {

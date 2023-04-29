@@ -1,0 +1,30 @@
+
+/*-------Sobre nosotros-------*/
+
+.body-sn {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: x-large;
+    margin: 15px;
+}
+
+.footer-sn {
+    margin-top: auto;
+}
+
+div.yt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.ventana {
+    margin: 20px;
+}
+

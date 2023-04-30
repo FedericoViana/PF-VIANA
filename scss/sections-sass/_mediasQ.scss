@@ -92,6 +92,9 @@
         text-decoration: none;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
+        p{
+            font-size: large;
+        }
 
     }
 
@@ -138,6 +141,9 @@
         text-decoration: none;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
+        p{
+            font-size: medium;
+        }
 
     }
 
@@ -202,10 +208,16 @@
     }
 
     footer {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
         color: bisque;
         text-decoration: none;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
+        p{
+            font-size: small
+        }
 
     }
 
@@ -290,6 +302,9 @@
 
 
     footer {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
         color: bisque;
         text-decoration: none;
         font-size: 1rem;
@@ -389,10 +404,16 @@
     }
 
     footer {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
         color: bisque;
         text-decoration: none;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
+        a, p{
+            font-size: small;
+        }
 
     }
 

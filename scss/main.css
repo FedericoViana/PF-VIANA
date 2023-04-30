@@ -1,0 +1,598 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+/*-------Index-------*/
+h1 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-size: 7rem;
+  font-family: "Itim";
+  color: rgb(224, 132, 175);
+  text-shadow: 1px 1px 1px #ad2fc0;
+}
+
+.carousel {
+  margin: 0%;
+}
+
+.fotos-de-inicio {
+  margin: 20px;
+}
+
+.tarjeta1 {
+  margin: 20px;
+}
+.tarjeta1 h5 {
+  margin: 15px;
+  font-size: 30px;
+  font-family: "Dosis", sans-serif;
+}
+.tarjeta1 h5,
+.tarjeta1 p,
+.tarjeta1 a {
+  font-family: "Dosis", sans-serif;
+  margin: 15px;
+}
+.tarjeta1 .img-index1 {
+  height: 327.8px;
+}
+
+.tarjeta2 {
+  margin-left: 20px;
+}
+.tarjeta2 h5 {
+  margin: 15px;
+  font-size: 30px;
+  font-family: "Dosis", sans-serif;
+}
+.tarjeta2 h5,
+.tarjeta2 p,
+.tarjeta2 a {
+  font-family: "Dosis", sans-serif;
+  margin: 15px;
+}
+.tarjeta2 .img-index2 {
+  height: 363.8px;
+}
+
+/*-------Contacto-------*/
+.body-contacto {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.campo {
+  width: 500px;
+}
+
+label {
+  font-size: x-large;
+  font-family: "Dosis", sans-serif;
+}
+
+.boton {
+  color: rgb(102, 30, 236);
+  font-size: larger;
+  background-color: rgb(32, 173, 173) !important;
+  font-family: "Dosis", sans-serif !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer-contacto {
+  margin-top: auto;
+}
+
+/*-------FAQ-------*/
+.body-faq {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.footer-faq {
+  margin-top: auto;
+}
+
+.consultas {
+  margin: 30px;
+}
+
+/*-------Sobre nosotros-------*/
+.body-sn {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  font-size: x-large;
+  margin: 15px;
+}
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img img {
+  width: 500px;
+  padding: 20px;
+}
+
+div.yt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ventana {
+  margin: 20px;
+}
+
+.footer-sn {
+  margin-top: auto;
+}
+
+/*-------Tienda-------*/
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  color: rgb(224, 132, 175);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.class-tienda p {
+  font-family: "Dosis", sans-serif;
+}
+
+.tienda {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas: "card1 card2 card3 card4" "card5 card6 card7 card8" "card9 card10 card11 card12";
+  justify-items: center;
+  justify-content: center;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.card-img-top {
+  height: 450px;
+  width: 450px;
+}
+
+div .card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  border: 0px;
+}
+
+div .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card1 {
+  grid-area: card1;
+}
+
+.card2 {
+  grid-area: card2;
+}
+
+.card3 {
+  grid-area: card3;
+}
+
+.card4 {
+  grid-area: card4;
+}
+
+.card5 {
+  grid-area: card5;
+}
+
+.card6 {
+  grid-area: card6;
+}
+
+.card7 {
+  grid-area: card7;
+}
+
+.card8 {
+  grid-area: card8;
+}
+
+.card9 {
+  grid-area: card9;
+}
+
+.card10 {
+  grid-area: card10;
+}
+
+.card11 {
+  grid-area: card11;
+}
+
+.card12 {
+  grid-area: card12;
+}
+
+div .card-body {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.d-grid {
+  justify-content: center;
+}
+
+.boton {
+  background-color: rgba(66, 211, 221, 0.6) !important;
+  border: #423d3d;
+}
+
+/*-------Footer-------*/
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer1, footer .footer2 {
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer .footer1 a, footer .footer2 a {
+  text-decoration: none;
+  color: rgb(18, 63, 63);
+  padding: 5px;
+}
+footer p {
+  color: bisque;
+  font-size: medium;
+  text-align: center;
+}
+
+.body1 {
+  min-height: 100vh;
+  display: grid;
+  align-items: end;
+  align-content: space-between;
+}
+
+body {
+  background-color: #f3d5f8;
+  background-size: cover;
+}
+
+.barra {
+  justify-content: end;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.secciones {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  color: #857981 !important;
+}
+
+.marca {
+  font-family: "Abel", sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  color: rgb(224, 132, 175);
+  font-size: 3rem;
+}
+
+.marca:hover {
+  color: #d15be4;
+}
+
+.barra1 {
+  background-color: rgba(0, 0, 0, 0.034) !important;
+}
+
+/*-------Medias Query-------*/
+@media (max-width: 1440px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+  .barra {
+    font-size: 1.5rem;
+  }
+  .btn {
+    width: 100px;
+    font-size: large;
+  }
+  div p {
+    font-size: 20px;
+  }
+  p {
+    margin: 15px;
+  }
+  p.card-text {
+    width: 250px;
+  }
+  .tienda {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: "card1 card2 card3" "card4 card5 card6" "card7 card8 card9" "card10 card11 card12";
+    margin: 0px;
+  }
+  footer {
+    color: bisque;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .card-img-top {
+    height: 450px;
+    width: 450px;
+  }
+}
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+  .barra {
+    font-size: 1.5rem;
+  }
+  .tienda {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: "card1 card2 card3" "card4 card5 card6" "card7 card8 card9" "card10 card11 card12";
+    margin: 1px;
+  }
+  footer {
+    color: bisque;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  footer p {
+    font-size: large;
+  }
+  .card-img-top {
+    height: 450px;
+    width: 334.67px;
+  }
+  .btn {
+    width: 100px;
+    font-size: large;
+  }
+  div p {
+    font-size: 15px;
+  }
+  p {
+    margin: 10px;
+  }
+  p.card-text {
+    width: 180px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .barra {
+    font-size: 1.2rem;
+  }
+  footer {
+    color: bisque;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  footer p {
+    font-size: medium;
+  }
+  .btn {
+    width: 100px;
+    font-size: large;
+  }
+  div p {
+    font-size: 15px;
+  }
+  p {
+    margin: 10px;
+  }
+  p.card-text {
+    width: 180px;
+  }
+  .card-img-top {
+    height: 450px;
+    width: 250px;
+  }
+}
+@media (max-width: 425px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .barra {
+    font-size: 1.2rem;
+  }
+  .tienda {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "card1 card2" "card3 card4" "card5 card6" "card7 card8" "card9 card10" "card11 card12";
+    margin: 1px;
+  }
+  footer {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    color: bisque;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  footer p {
+    font-size: small;
+  }
+  .btn {
+    width: 85px;
+    font-size: small;
+  }
+  div p {
+    font-size: 15px;
+  }
+  p {
+    margin: 10px;
+  }
+  p.card-text {
+    width: 180px;
+  }
+  .card-img-top {
+    height: 430px;
+    width: 200px;
+  }
+  div .card-body {
+    width: 200px;
+  }
+  iframe {
+    width: 425px;
+  }
+  .campo {
+    width: 425px;
+    padding: 5px;
+  }
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .barra {
+    font-size: 1rem;
+  }
+  .tienda {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "card1" "card2" "card3 " "card4" "card5" "card6" "card7" "card8" "card9" "card10" "card11" "card12";
+  }
+  footer {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    color: bisque;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .btn {
+    width: 100px;
+    font-size: 20px;
+  }
+  .card-img-top {
+    height: 430px;
+    width: 300px;
+  }
+  div .card-body {
+    width: 300px;
+  }
+  p {
+    font-size: 20px;
+  }
+  iframe {
+    width: 375px;
+  }
+  .campo {
+    width: 375px;
+    padding: 15px;
+  }
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .barra {
+    font-size: 1rem;
+  }
+  .tienda {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "card1" "card2" "card3 " "card4" "card5" "card6" "card7" "card8" "card9" "card10" "card11" "card12";
+  }
+  .card-img-top {
+    height: 430px;
+    width: 200px;
+  }
+  div .card-body {
+    width: 200px;
+  }
+  iframe {
+    width: 320px;
+  }
+  .campo {
+    width: 320px;
+    padding: 15px;
+  }
+  footer {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    color: bisque;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  footer a, footer p {
+    font-size: small;
+  }
+  .btn {
+    width: 100px;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

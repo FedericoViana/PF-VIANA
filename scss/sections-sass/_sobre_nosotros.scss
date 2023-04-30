@@ -13,8 +13,15 @@ p {
     margin: 15px;
 }
 
-.footer-sn {
-    margin-top: auto;
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img{
+        width: 500px;
+        padding: 20px;
+    }
 }
 
 div.yt {
@@ -26,5 +33,9 @@ div.yt {
 
 .ventana {
     margin: 20px;
+}
+
+.footer-sn {
+    margin-top: auto;
 }
 

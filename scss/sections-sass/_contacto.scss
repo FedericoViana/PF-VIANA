@@ -19,14 +19,17 @@
             font-family: 'Dosis', sans-serif;
         }
     }
-    .boton {
-        color: rgb(102, 30, 236);
-        font-size: larger;
-        background-color: rgb(32, 173, 173) !important;
-        font-family: 'Dosis', sans-serif !important;
-    
-    }
 }
+.boton {
+    color: rgb(102, 30, 236);
+    font-size: larger;
+    background-color: rgb(32, 173, 173) !important;
+    font-family: 'Dosis', sans-serif !important;
+    background-color: rgba(66, 211, 221, 0.6) !important;
+    border: #423d3d; }
+   
+
+
 
 .footer-contacto {
     margin-top: auto;

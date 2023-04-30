@@ -66,11 +66,14 @@ h1 {
     .form .campo label {
       font-size: x-large;
       font-family: 'Dosis', sans-serif; }
-  .form .boton {
-    color: #661eec;
-    font-size: larger;
-    background-color: #20adad !important;
-    font-family: 'Dosis', sans-serif !important; }
+
+.boton {
+  color: #661eec;
+  font-size: larger;
+  background-color: #20adad !important;
+  font-family: 'Dosis', sans-serif !important;
+  background-color: rgba(66, 211, 221, 0.6) !important;
+  border: #423d3d; }
 
 .footer-contacto {
   margin-top: auto; }
@@ -136,42 +139,57 @@ h2 {
   height: 100%;
   padding-top: 20px;
   padding-bottom: 30px; }
-  .tienda div .card {
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    transition: all 400ms ease;
-    border: 0px; }
-    .tienda div .card:hover {
-      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-      transform: translateY(-3%); }
-    .tienda div .card .card-img-top {
-      height: 450px;
-      width: 450px; }
-  .tienda .card1 {
-    grid-area: card1; }
-  .tienda .card2 {
-    grid-area: card2; }
-  .tienda .card3 {
-    grid-area: card3; }
-  .tienda .card4 {
-    grid-area: card4; }
-  .tienda .card5 {
-    grid-area: card5; }
-  .tienda .card6 {
-    grid-area: card6; }
-  .tienda .card7 {
-    grid-area: card7; }
-  .tienda .card8 {
-    grid-area: card8; }
-  .tienda .card9 {
-    grid-area: card9; }
-  .tienda .card10 {
-    grid-area: card10; }
-  .tienda .card11 {
-    grid-area: card11; }
-  .tienda .card12 {
-    grid-area: card12; }
-  .tienda div .card-body {
-    background-color: rgba(0, 0, 0, 0.2); }
+
+div .card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  border: 0px; }
+  div .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+
+.card-img-top {
+  height: 450px;
+  width: 450px; }
+
+.card1 {
+  grid-area: card1; }
+
+.card2 {
+  grid-area: card2; }
+
+.card3 {
+  grid-area: card3; }
+
+.card4 {
+  grid-area: card4; }
+
+.card5 {
+  grid-area: card5; }
+
+.card6 {
+  grid-area: card6; }
+
+.card7 {
+  grid-area: card7; }
+
+.card8 {
+  grid-area: card8; }
+
+.card9 {
+  grid-area: card9; }
+
+.card10 {
+  grid-area: card10; }
+
+.card11 {
+  grid-area: card11; }
+
+.card12 {
+  grid-area: card12; }
+
+div .card-body {
+  background-color: rgba(0, 0, 0, 0.2); }
 
 .d-grid {
   justify-content: center; }
@@ -179,6 +197,8 @@ h2 {
 .boton {
   background-color: rgba(66, 211, 221, 0.6) !important;
   border: #423d3d; }
+  .boton:hover {
+    color: aliceblue; }
 
 /*-------Footer-------*/
 footer {

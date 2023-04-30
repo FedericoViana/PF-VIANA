@@ -4,24 +4,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100%;
-
-}
-
-.campo {
-    width: 500px;
-}
-
-label {
-    font-size: x-large;
-    font-family: 'Dosis', sans-serif;
-}
-
-.boton {
-    color: rgb(102, 30, 236);
-    font-size: larger;
-    background-color: rgb(32, 173, 173) !important;
-    font-family: 'Dosis', sans-serif !important;
-
+    
 }
 
 .form {
@@ -29,9 +12,25 @@ label {
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
+    .campo {
+        width: 500px;
+        label {
+            font-size: x-large;
+            font-family: 'Dosis', sans-serif;
+        }
+    }
+    .boton {
+        color: rgb(102, 30, 236);
+        font-size: larger;
+        background-color: rgb(32, 173, 173) !important;
+        font-family: 'Dosis', sans-serif !important;
+    
+    }
 }
-
 
 .footer-contacto {
     margin-top: auto;
 }
+
+
+

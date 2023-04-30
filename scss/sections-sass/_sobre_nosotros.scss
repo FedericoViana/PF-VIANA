@@ -5,35 +5,35 @@
     display: flex;
     flex-direction: column;
     min-height: 100%;
-}
-
-p {
-    font-family: 'Dosis', sans-serif;
-    font-size: x-large;
-    margin: 15px;
-}
-
-.img{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    img{
-        width: 500px;
-        padding: 20px;
+    p {
+        font-family: 'Dosis', sans-serif;
+        font-size: x-large;
+        margin: 15px;
+    }
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        img{
+            width: 500px;
+            padding: 20px;
+        }
     }
 }
+
+
 
 div.yt {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
+    .ventana {
+        margin: 20px;
+    }
 }
 
-.ventana {
-    margin: 20px;
-}
 
 .footer-sn {
     margin-top: auto;

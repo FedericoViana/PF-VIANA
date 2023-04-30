@@ -70,27 +70,24 @@ h1 {
   min-height: 100%;
 }
 
-.campo {
-  width: 500px;
-}
-
-label {
-  font-size: x-large;
-  font-family: "Dosis", sans-serif;
-}
-
-.boton {
-  color: rgb(102, 30, 236);
-  font-size: larger;
-  background-color: rgb(32, 173, 173) !important;
-  font-family: "Dosis", sans-serif !important;
-}
-
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
+}
+.form .campo {
+  width: 500px;
+}
+.form .campo label {
+  font-size: x-large;
+  font-family: "Dosis", sans-serif;
+}
+.form .boton {
+  color: rgb(102, 30, 236);
+  font-size: larger;
+  background-color: rgb(32, 173, 173) !important;
+  font-family: "Dosis", sans-serif !important;
 }
 
 .footer-contacto {
@@ -103,13 +100,11 @@ label {
   flex-direction: column;
   min-height: 100%;
 }
-
-.footer-faq {
-  margin-top: auto;
-}
-
-.consultas {
+.body-faq .consultas {
   margin: 30px;
+}
+.body-faq .footer-faq {
+  margin-top: auto;
 }
 
 /*-------Sobre nosotros-------*/
@@ -118,19 +113,17 @@ label {
   flex-direction: column;
   min-height: 100%;
 }
-
-p {
+.body-sn p {
   font-family: "Dosis", sans-serif;
   font-size: x-large;
   margin: 15px;
 }
-
-.img {
+.body-sn .img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.img img {
+.body-sn .img img {
   width: 500px;
   padding: 20px;
 }
@@ -140,8 +133,7 @@ div.yt {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.ventana {
+div.yt .ventana {
   margin: 20px;
 }
 
@@ -176,80 +168,62 @@ h2 {
   padding-top: 20px;
   padding-bottom: 30px;
 }
-
-.card-img-top {
+.tienda .card-img-top {
   height: 450px;
   width: 450px;
 }
-
-div .card {
+.tienda div .card {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease;
   border: 0px;
 }
-
-div .card:hover {
+.tienda div .card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%);
 }
-
-.card1 {
+.tienda .card1 {
   grid-area: card1;
 }
-
-.card2 {
+.tienda .card2 {
   grid-area: card2;
 }
-
-.card3 {
+.tienda .card3 {
   grid-area: card3;
 }
-
-.card4 {
+.tienda .card4 {
   grid-area: card4;
 }
-
-.card5 {
+.tienda .card5 {
   grid-area: card5;
 }
-
-.card6 {
+.tienda .card6 {
   grid-area: card6;
 }
-
-.card7 {
+.tienda .card7 {
   grid-area: card7;
 }
-
-.card8 {
+.tienda .card8 {
   grid-area: card8;
 }
-
-.card9 {
+.tienda .card9 {
   grid-area: card9;
 }
-
-.card10 {
+.tienda .card10 {
   grid-area: card10;
 }
-
-.card11 {
+.tienda .card11 {
   grid-area: card11;
 }
-
-.card12 {
+.tienda .card12 {
   grid-area: card12;
 }
-
-div .card-body {
+.tienda div .card-body {
   background-color: rgba(0, 0, 0, 0.2);
 }
-
-.d-grid {
+.tienda .d-grid {
   justify-content: center;
 }
-
-.boton {
+.tienda .boton {
   background-color: rgba(66, 211, 221, 0.6) !important;
   border: #423d3d;
 }
@@ -291,33 +265,32 @@ body {
   background-size: cover;
 }
 
-.barra {
-  justify-content: end;
-  padding: 10px;
-  font-size: 2rem;
+.barra1 {
+  background-color: rgba(0, 0, 0, 0.034) !important;
 }
-
-.secciones {
-  font-family: "Abel", sans-serif;
-  font-weight: bold;
-  font-style: oblique;
-  color: #857981 !important;
-}
-
-.marca {
+.barra1 .marca {
   font-family: "Abel", sans-serif;
   font-style: oblique;
   font-weight: bold;
   color: rgb(224, 132, 175);
   font-size: 3rem;
 }
-
-.marca:hover {
+.barra1 .marca:hover {
   color: #d15be4;
 }
-
-.barra1 {
-  background-color: rgba(0, 0, 0, 0.034) !important;
+.barra1 .marca .barra {
+  justify-content: end;
+  padding: 10px;
+  font-size: 2rem;
+}
+.barra1 .marca .barra a .secciones {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  color: #e0179d !important;
+}
+.barra1 .marca .barra a .secciones:hover {
+  color: #d15be4;
 }
 
 /*-------Medias Query-------*/

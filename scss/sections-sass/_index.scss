@@ -1,6 +1,7 @@
 /*-------Index-------*/
 
-h1 {
+
+/*h1 {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -17,15 +18,25 @@ h1 {
 
 }
 
-.tarjeta0 {
+
+/*.cards_index{    
+    width: 50%;
+    max-width: 500px;
+    margin:0 auto;
+    align-content: center;
+    
+}
+
+.tarjeta0 {    
     width: 500px;
-    margin: 20px;
+    margin-top: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease;
+    justify-content: end;
 
     .texto_card_h5,
     .texto_card_p {
-        font-family: 'Dosis', sans-serif;
+        font-family:'Dosis', sans-serif;
         font-weight: bold;
     }
 
@@ -42,15 +53,16 @@ h1 {
    
 }
 
-.tarjeta1 {
+ .tarjeta1 {
     width: 500px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease;
 
     .texto_card_h5,
     .texto_card_p {
-        font-family: 'Dosis', sans-serif;
+        font-family:'Dosis', sans-serif;
         font-weight: bold;
         
     }
@@ -66,4 +78,129 @@ h1 {
         }
     }
   
+}/*
+
+/* Estilos generales */
+.body1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  h1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 7rem;
+    font-family: 'Itim';
+    color: rgb(224, 132, 175);
+    text-shadow: 1px 1px 1px #ad2fc0;
+  }
+  
+  .carousel {
+    margin: 0%;
+  }
+  
+  .cards_index {
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    align-content: center;
+  }
+  
+  .tarjeta0 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+    justify-content: end;
+  }
+  
+  .tarjeta0 .texto_card_h5,
+  .tarjeta0 .texto_card_p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .tarjeta0:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+  
+  .tarjeta0:hover .texto_card_h5,
+  .tarjeta0:hover .texto_card_p {
+    color: black;
+    font-size: large;
+  }
+  
+  .tarjeta1 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+  }
+  
+  .tarjeta1 .texto_card_h5,
+  .tarjeta1 .texto_card_p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .tarjeta1:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+  
+  .tarjeta1:hover .texto_card_h5,
+  .tarjeta1:hover .texto_card_p {
+    color: rgb(255, 255, 255);
+    font-size: large;
+  }
+  
+  @media screen and (max-width: 320px) {
+    h1 {
+      font-size: 4rem;
+    }
+  
+    .cards_index {
+      width: 100%;
+      max-width: none;
+    }
+  
+    .tarjeta0,
+    .tarjeta1 {
+      max-width: 320px;
+    }
+  
+    .tarjeta0 .texto_card_h5,
+    .tarjeta0 .texto_card_p,
+    .tarjeta1 .texto_card_h5,
+    .tarjeta1 .texto_card_p {
+      font-size: small;
+      margin: 0;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    h1 {
+      font-size: 5rem;
+    }
+  
+    .cards_index {
+      width: 100%;
+      max-width: none;
+    }
 }
+  

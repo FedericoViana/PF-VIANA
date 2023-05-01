@@ -12,8 +12,8 @@ h1 {
     align-items: start;
     font-size: 7rem;
     font-family: 'Itim';
-    color: rgb(224, 132, 175);
-    text-shadow: 1px 1px 1px #ad2fc0;
+    color: $rosado-claro;
+    text-shadow: 1px 1px 1px $rosado-sombra;
 
 }
 
@@ -72,7 +72,7 @@ h1 {
 
         .texto_card_h5,
         .texto_card_p {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: x-large;
         }
     }

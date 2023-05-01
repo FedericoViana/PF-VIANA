@@ -111,9 +111,9 @@ div .card-body {
 }
 
 .boton {
-    background-color: rgba(66, 211, 221, 0.6) !important;
+    background-color: $boton-b !important;
     border: #423d3d;
     &:hover{
-        color: aliceblue;
+        color: #f0f8ff;
     }
 }

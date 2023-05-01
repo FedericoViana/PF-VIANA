@@ -7,11 +7,11 @@
     font-family: 'Abel', sans-serif;
     font-style: oblique;
     font-weight: bold;
-    color: rgb(224, 132, 175);
+    color:$rosado-claro;
     font-size: 3rem;
 
     &:hover {
-        color: #d15be4;
+        color: $rosado-fuerte;
     }
 
 }
@@ -27,7 +27,7 @@
     font-family: 'Abel', sans-serif;
     font-weight: bold;
     font-style: oblique;
-    color: rgb(224, 132, 175) !important;
+    color: $rosado-claro !important;
 
    
 }

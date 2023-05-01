@@ -1,31 +1,33 @@
 .barra1 {
     background-color: rgba(0, 0, 0, 0.034) !important;
 
-    .marca {
-        font-family: 'Abel', sans-serif;
-        font-style: oblique;
-        font-weight: bold;
-        color: rgb(224, 132, 175);
-        font-size: 3rem;
+    
+}
+.marca {
+    font-family: 'Abel', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(224, 132, 175);
+    font-size: 3rem;
 
-        &:hover {
-            color: #d15be4;
-        }
-
+    &:hover {
+        color: #d15be4;
     }
 
-    .barra {
-        justify-content: end;
-        padding: 10px;
-        font-size: 2rem;
+}
+.barra {
+    justify-content: end;
+    padding: 10px;
+    font-size: 2rem;
 
-        .secciones {
-            font-family: 'Abel', sans-serif;
-            font-weight: bold;
-            font-style: oblique;
-            color: rgb(224, 132, 175) !important;
+}
 
-           
-        }
-    }
+
+.secciones {
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(224, 132, 175) !important;
+
+   
 }

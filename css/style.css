@@ -19,36 +19,39 @@ h1 {
 .carousel {
   margin: 0%; }
 
-.fotos-de-inicio {
-  margin: 20px; }
+.tarjeta0 {
+  width: 500px;
+  margin: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease; }
+  .tarjeta0 .texto_card_h5,
+  .tarjeta0 .texto_card_p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold; }
+  .tarjeta0:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+    .tarjeta0:hover .texto_card_h5,
+    .tarjeta0:hover .texto_card_p {
+      color: black;
+      font-size: x-large; }
 
 .tarjeta1 {
-  margin: 20px; }
-  .tarjeta1 h5 {
-    margin: 15px;
-    font-size: 30px;
-    font-family: 'Dosis', sans-serif; }
-  .tarjeta1 h5,
-  .tarjeta1 p,
-  .tarjeta1 a {
+  width: 500px;
+  margin: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease; }
+  .tarjeta1 .texto_card_h5,
+  .tarjeta1 .texto_card_p {
     font-family: 'Dosis', sans-serif;
-    margin: 15px; }
-  .tarjeta1 .img-index1 {
-    height: 327.8px; }
-
-.tarjeta2 {
-  margin-left: 20px; }
-  .tarjeta2 h5 {
-    margin: 15px;
-    font-size: 30px;
-    font-family: 'Dosis', sans-serif; }
-  .tarjeta2 h5,
-  .tarjeta2 p,
-  .tarjeta2 a {
-    font-family: 'Dosis', sans-serif;
-    margin: 15px; }
-  .tarjeta2 .img-index2 {
-    height: 363.8px; }
+    font-weight: bold; }
+  .tarjeta1:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+    .tarjeta1:hover .texto_card_h5,
+    .tarjeta1:hover .texto_card_p {
+      color: white;
+      font-size: x-large; }
 
 /*-------Contacto-------*/
 .body-contacto {
@@ -61,17 +64,17 @@ h1 {
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px; }
-  .form .campo {
-    width: 500px; }
-    .form .campo label {
-      font-size: x-large;
-      font-family: 'Dosis', sans-serif; }
+
+.campo {
+  width: 500px; }
+  .campo label {
+    font-size: x-large;
+    font-family: 'Dosis', sans-serif; }
 
 .boton {
   color: #661eec;
   font-size: larger;
-  background-color: #20adad !important;
-  font-family: 'Dosis', sans-serif !important;
+  font-family: 'Dosis', sans-serif;
   background-color: rgba(66, 211, 221, 0.6) !important;
   border: #423d3d; }
 
@@ -93,17 +96,19 @@ h1 {
   display: flex;
   flex-direction: column;
   min-height: 100%; }
-  .body-sn p {
-    font-family: 'Dosis', sans-serif;
-    font-size: x-large;
-    margin: 15px; }
-  .body-sn .img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .body-sn .img img {
-      width: 500px;
-      padding: 20px; }
+
+.PP {
+  font-family: 'Dosis', sans-serif;
+  font-size: x-large;
+  margin: 15px; }
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .img img {
+    width: 500px;
+    padding: 20px; }
 
 div.yt {
   display: flex;
@@ -112,9 +117,9 @@ div.yt {
   div.yt .ventana {
     margin: 20px; }
 
-.footer-sn {
-  margin-top: auto; }
-
+/*.footer-sn {
+    margin-top: auto;
+}*/
 /*-------Tienda-------*/
 h2 {
   font-family: 'Dosis', sans-serif;
@@ -205,21 +210,25 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-top: auto; }
   footer .footer1, footer .footer2 {
-    font-family: sans-serif;
+    font-family: 'Dosis', sans-serif;
     list-style: none;
     text-decoration: none;
-    font-weight: bold;
-    text-decoration: none; }
+    font-weight: bold; }
     footer .footer1 a, footer .footer2 a {
       text-decoration: none;
       color: #123f3f;
       padding: 5px; }
-  footer p {
-    color: bisque;
-    font-size: medium;
-    text-align: center; }
+
+.p-f {
+  color: bisque;
+  font-size: medium;
+  padding: 2px;
+  font-family: 'Dosis', sans-serif;
+  font-size: large;
+  margin: 15px; }
 
 .body1 {
   min-height: 100vh;
@@ -233,23 +242,26 @@ body {
 
 .barra1 {
   background-color: rgba(0, 0, 0, 0.034) !important; }
-  .barra1 .marca {
-    font-family: 'Abel', sans-serif;
-    font-style: oblique;
-    font-weight: bold;
-    color: #e084af;
-    font-size: 3rem; }
-    .barra1 .marca:hover {
-      color: #d15be4; }
-  .barra1 .barra {
-    justify-content: end;
-    padding: 10px;
-    font-size: 2rem; }
-    .barra1 .barra .secciones {
-      font-family: 'Abel', sans-serif;
-      font-weight: bold;
-      font-style: oblique;
-      color: #e084af !important; }
+
+.marca {
+  font-family: 'Abel', sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  color: #e084af;
+  font-size: 3rem; }
+  .marca:hover {
+    color: #d15be4; }
+
+.barra {
+  justify-content: end;
+  padding: 10px;
+  font-size: 2rem; }
+
+.secciones {
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  color: #e084af !important; }
 
 /*-------Medias Query-------*/
 @media (max-width: 1440px) {
@@ -280,6 +292,8 @@ body {
     text-decoration: none;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.5); }
+  .p-f {
+    font-size: large; }
   .card-img-top {
     height: 450px;
     width: 450px; } }
@@ -305,6 +319,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5); }
     footer p {
       font-size: large; }
+  .p-f {
+    font-size: large; }
   .card-img-top {
     height: 450px;
     width: 334.67px; }
@@ -332,6 +348,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5); }
     footer p {
       font-size: medium; }
+  .p-f {
+    font-size: large; }
   .btn {
     width: 100px;
     font-size: large; }
@@ -348,6 +366,8 @@ body {
 @media (max-width: 425px) {
   h1 {
     font-size: 3rem; }
+  .PP {
+    font-size: medium; }
   .navbar-brand {
     font-size: 2rem; }
   .barra {
@@ -368,6 +388,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5); }
     footer p {
       font-size: small; }
+  .p-f {
+    font-size: medium; }
   .btn {
     width: 85px;
     font-size: small; }
@@ -391,6 +413,8 @@ body {
 @media (max-width: 375px) {
   h1 {
     font-size: 2rem; }
+  .PP {
+    font-size: small; }
   .navbar-brand {
     font-size: 1.5rem; }
   .barra {
@@ -408,6 +432,8 @@ body {
     text-decoration: none;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.5); }
+  .p-f {
+    font-size: medium; }
   .btn {
     width: 100px;
     font-size: 20px; }
@@ -427,6 +453,8 @@ body {
 @media (max-width: 320px) {
   h1 {
     font-size: 2rem; }
+  .PP {
+    font-size: small; }
   .navbar-brand {
     font-size: 1.5rem; }
   .barra {
@@ -454,8 +482,8 @@ body {
     text-decoration: none;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.5); }
-    footer a, footer p {
-      font-size: small; }
+  .p-f {
+    font-size: small; }
   .btn {
     width: 100px;
     font-size: 20px; } }

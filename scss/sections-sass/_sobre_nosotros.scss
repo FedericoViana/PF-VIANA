@@ -5,20 +5,20 @@
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    p {
-        font-family: 'Dosis', sans-serif;
-        font-size: x-large;
-        margin: 15px;
-    }
-    .img{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    
-        img{
-            width: 500px;
-            padding: 20px;
-        }
+}
+.PP {
+    font-family: 'Dosis', sans-serif;
+    font-size: x-large;
+    margin: 15px;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img{
+        width: 500px;
+        padding: 20px;
     }
 }
 
@@ -35,7 +35,7 @@ div.yt {
 }
 
 
-.footer-sn {
+/*.footer-sn {
     margin-top: auto;
-}
+}*/
 

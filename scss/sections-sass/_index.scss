@@ -14,53 +14,56 @@ h1 {
 
 .carousel {
     margin: 0%;
+
+}
+
+.tarjeta0 {
+    width: 500px;
+    margin: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+
+    .texto_card_h5,
+    .texto_card_p {
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+    }
+
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
+
+        .texto_card_h5,
+        .texto_card_p {
+            color: black;
+            font-size: x-large;
+        }
+    }
+   
+}
+
+.tarjeta1 {
+    width: 500px;
+    margin: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+
+    .texto_card_h5,
+    .texto_card_p {
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        
+    }
+
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
+
+        .texto_card_h5,
+        .texto_card_p {
+            color: rgb(255, 255, 255);
+            font-size: x-large;
+        }
+    }
   
 }
-
-.fotos-de-inicio {
-    margin: 20px
-}
-
-.tarjeta1{
-    margin: 20px;
-    h5{
-    margin: 15px;
-    font-size: 30px;
-    font-family: 'Dosis', sans-serif;
-    }
-    h5,
-    p,
-    a {
-        font-family: 'Dosis', sans-serif;
-        margin: 15px;
-    
-    }
-    
-    .img-index1{
-       height: 327.8px;
-    }
-}
-
-.tarjeta2{
-    margin-left: 20px;
-    h5{
-    margin: 15px;
-    font-size: 30px;
-    font-family: 'Dosis', sans-serif;
-    }
-    h5,
-    p,
-    a {
-        font-family: 'Dosis', sans-serif;
-        margin: 15px;
-    
-    }
-    
-    .img-index2{
-        height: 363.8px;
-       
-    }
-}
-
-    
-

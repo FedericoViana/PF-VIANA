@@ -51,6 +51,9 @@
         background-color: rgba(0, 0, 0, 0.5);
 
     }
+    .p-f{
+        font-size: large;
+    }
 
     .card-img-top {
         height: 450px;
@@ -96,6 +99,9 @@
             font-size: large;
         }
 
+    }
+    .p-f{
+        font-size: large;
     }
 
     .card-img-top {
@@ -146,6 +152,9 @@
         }
 
     }
+    .p-f{
+        font-size: large;
+    }
 
     .btn {
         width: 100px;
@@ -177,6 +186,9 @@
 @media(max-width: 425px) {
     h1 {
         font-size: 3rem;
+    }
+    .PP{
+        font-size: medium;
     }
 
     .navbar-brand {
@@ -219,6 +231,9 @@
             font-size: small
         }
 
+    }
+    .p-f{
+        font-size: medium;
     }
 
     .btn {
@@ -266,6 +281,9 @@
     h1 {
         font-size: 2rem;
     }
+    .PP{
+        font-size: small;
+    }
 
     .navbar-brand {
         font-size: 1.5rem;
@@ -310,6 +328,9 @@
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
 
+    }
+    .p-f{
+        font-size: medium;
     }
 
     .btn {
@@ -348,6 +369,9 @@
     h1 {
         font-size: 2rem;
     }
+    .PP{
+        font-size: small;
+    }
 
     .navbar-brand {
         font-size: 1.5rem;
@@ -411,12 +435,12 @@
         text-decoration: none;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
-        a, p{
-            font-size: small;
-        }
-
+        
     }
-
+    .p-f{
+        font-size: small;
+    }
+    
     .btn {
         width: 100px;
         font-size: 20px;

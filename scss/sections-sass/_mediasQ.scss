@@ -519,7 +519,7 @@
 
     .tienda {
         display: grid;
-        grid-template-columns: .5fr;
+        grid-template-columns: auto; /*antes.5fr*/
         grid-template-rows: 1fr;
         grid-template-areas:
             "card1"

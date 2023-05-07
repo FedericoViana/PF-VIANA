@@ -1,29 +1,37 @@
 /*-------Footer-------*/
 
 footer {
-  
+
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .footer1, .footer2 {
+    .footer1,
+    .footer2 {
         font-family: 'Dosis', sans-serif;
-        list-style: none; 
+        list-style: none;
         text-decoration: none;
         font-weight: bold;
-       
-        a {
-        text-decoration: none;
-        color: $verde-azulado;
-        padding: 5px;
-           
-        }        
 
-    }   
+        a {
+            text-decoration: none;
+            color: $verde-azulado;
+            padding: 5px;
+
+            &:hover{
+                color: $hover-icon;
+            }
+
+
+        }
+
+    }
+
     margin-top: auto;
-    
+
 }
+
 .p-f {
     color: #ffe4c4;
     font-size: medium;
@@ -31,6 +39,6 @@ footer {
     font-family: 'Dosis', sans-serif;
     font-size: large;
     margin: 15px;
-   
-        
+
+
 }

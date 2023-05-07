@@ -110,7 +110,9 @@ h1 {
   display: grid;
   justify-content: center; }
 
-.img-1, .img-2, .img-3 {
+.img-1,
+.img-2,
+.img-3 {
   width: 200px; }
 
 /*-------Sobre nosotros-------*/
@@ -234,15 +236,20 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: auto; }
-  footer .footer1, footer .footer2 {
+  footer .footer1,
+  footer .footer2 {
     font-family: 'Dosis', sans-serif;
     list-style: none;
     text-decoration: none;
     font-weight: bold; }
-    footer .footer1 a, footer .footer2 a {
+    footer .footer1 a,
+    footer .footer2 a {
       text-decoration: none;
       color: #123f3f;
       padding: 5px; }
+      footer .footer1 a:hover,
+      footer .footer2 a:hover {
+        color: #460a4ee0; }
 
 .p-f {
   color: #ffe4c4;

@@ -1,9 +1,11 @@
 /*-------Index-------*/
 
-.main1 {
-    max-width: 100%;
-    margin: 0 auto;
-}
+/*.main1 {
+    max-width: 100%;    
+    margin:  0 auto;
+}*/
+
+
 
 h1 {
     padding: 20px;
@@ -13,22 +15,29 @@ h1 {
     font-size: 7rem;
     font-family: 'Itim';
     color: $rosado-claro;
-   text-shadow: 1px 1px 1px $rosado-sombra;
+    text-shadow: 1px 1px 1px $rosado-sombra;
 
 }
 
+.d-block{    
+    margin: 0 auto;
+    justify-content: center;  
+   
+}
 
 .cards_index {  
     margin: 0 auto;
     align-content: center;
-
 }
+
 
 
 /*para las MQ*/
 .tarjeta0 {
 
     margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease;
     justify-content: end;
@@ -55,6 +64,8 @@ h1 {
 .tarjeta1 {
 
     margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease;

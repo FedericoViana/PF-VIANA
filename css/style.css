@@ -6,10 +6,10 @@ html {
   height: 100vh; }
 
 /*-------Index-------*/
-.main1 {
-  max-width: 100%;
-  margin: 0 auto; }
-
+/*.main1 {
+    max-width: 100%;    
+    margin:  0 auto;
+}*/
 h1 {
   padding: 20px;
   display: flex;
@@ -20,6 +20,10 @@ h1 {
   color: #e084af;
   text-shadow: 1px 1px 1px #ad2fc0; }
 
+.d-block {
+  margin: 0 auto;
+  justify-content: center; }
+
 .cards_index {
   margin: 0 auto;
   align-content: center; }
@@ -27,6 +31,8 @@ h1 {
 /*para las MQ*/
 .tarjeta0 {
   margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease;
   justify-content: end; }
@@ -44,6 +50,8 @@ h1 {
 
 .tarjeta1 {
   margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
   margin-bottom: 20px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease; }
@@ -96,6 +104,14 @@ h1 {
     margin: 30px; }
   .body-faq .footer-faq {
     margin-top: auto; }
+
+.container-img {
+  margin: auto;
+  display: grid;
+  justify-content: center; }
+
+.img-1, .img-2, .img-3 {
+  width: 200px; }
 
 /*-------Sobre nosotros-------*/
 .body-sn {
@@ -298,6 +314,8 @@ body {
     text-decoration: none;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.5); }
+    footer ul {
+      padding: 0; }
   .p-f {
     font-size: large; }
   .card-img-top {
@@ -311,6 +329,8 @@ body {
     font-size: 2.5rem; }
   .barra {
     font-size: 1.5rem; }
+  .tarjeta1 {
+    padding-bottom: 10px; }
   .tienda {
     display: grid;
     grid-template-columns: .5fr .5fr .5fr;
@@ -325,6 +345,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5); }
     footer p {
       font-size: large; }
+    footer ul {
+      padding: 0; }
   .p-f {
     font-size: large; }
   .card-img-top {
@@ -347,6 +369,13 @@ body {
     font-size: 2rem; }
   .barra {
     font-size: 1.2rem; }
+  .carousel {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .tarjeta0, .tarjeta1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; }
   footer {
     color: bisque;
     text-decoration: none;
@@ -354,6 +383,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5); }
     footer p {
       font-size: medium; }
+    footer ul {
+      padding: 0; }
   .p-f {
     font-size: large; }
   .btn {
@@ -394,6 +425,9 @@ body {
     background-color: rgba(0, 0, 0, 0.5); }
     footer p {
       font-size: small; }
+    footer ul {
+      padding: 0;
+      padding-top: 10px; }
   .p-f {
     font-size: medium; }
   .btn {
@@ -415,9 +449,14 @@ body {
   .campo {
     width: 425px;
     padding: 5px; }
+  .carousel {
+    margin-left: 10px;
+    margin-right: 10px; }
   .tarjeta0 {
     /*width: 500px;*/
     margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease;
     justify-content: end; }
@@ -437,6 +476,8 @@ body {
   .tarjeta1 {
     /*width: 500px;*/
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease; }
@@ -476,6 +517,9 @@ body {
     text-decoration: none;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.5); }
+    footer ul {
+      padding: 0;
+      padding-top: 10px; }
   .p-f {
     font-size: medium; }
   .btn {
@@ -493,9 +537,14 @@ body {
   .campo {
     width: 375px;
     padding: 15px; }
+  .carousel {
+    margin-left: 10px;
+    margin-right: 10px; }
   .tarjeta0 {
     /*width: 500px;*/
     margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease;
     justify-content: end; }
@@ -515,6 +564,8 @@ body {
   .tarjeta1 {
     /*width: 500px;*/
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease; }
@@ -557,9 +608,14 @@ body {
   .campo {
     width: 320px;
     padding: 15px; }
+  .carousel {
+    margin-left: 10px;
+    margin-right: 10px; }
   .tarjeta0 {
     /*width: 500px;*/
     margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease;
     justify-content: end; }
@@ -579,6 +635,8 @@ body {
   .tarjeta1 {
     /*width: 500px;*/
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease; }
@@ -602,6 +660,9 @@ body {
     text-decoration: none;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.5); }
+    footer ul {
+      padding: 0px;
+      padding-top: 10px; }
   .p-f {
     font-size: small; }
   .btn {

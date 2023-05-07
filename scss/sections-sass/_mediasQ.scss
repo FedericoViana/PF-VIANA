@@ -49,6 +49,9 @@
         text-decoration: none;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
+        ul{
+            padding: 0;
+        }
 
     }
 
@@ -77,6 +80,9 @@
         font-size: 1.5rem;
 
     }
+    .tarjeta1{
+        padding-bottom: 10px;
+    }
 
     .tienda {
         display: grid;
@@ -99,6 +105,9 @@
 
         p {
             font-size: large;
+        }
+        ul{
+            padding: 0;
         }
 
     }
@@ -144,15 +153,28 @@
     .barra {
         font-size: 1.2rem;
     }
+    .carousel{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .tarjeta0, .tarjeta1{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
 
     footer {
         color: bisque;
         text-decoration: none;
+        
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
 
         p {
             font-size: medium;
+        }
+        ul{
+            padding: 0;
         }
 
     }
@@ -237,6 +259,10 @@
         p {
             font-size: small
         }
+        ul{
+            padding: 0;
+            padding-top: 10px;
+        }
 
     }
 
@@ -281,9 +307,15 @@
         width: 425px;
         padding: 5px;
     }
+    .carousel{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .tarjeta0 {    
         /*width: 500px;*/
         margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
         transition: all 400ms ease;
         justify-content: end;
@@ -315,6 +347,8 @@
      .tarjeta1 {
         /*width: 500px;*/
         margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 20px;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
         transition: all 400ms ease;
@@ -397,6 +431,10 @@
         text-decoration: none;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
+        ul{
+            padding: 0;
+            padding-top: 10px;
+        }
 
     }
 
@@ -432,9 +470,15 @@
         width: 375px;
         padding: 15px;
     }
+    .carousel{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .tarjeta0 {    
         /*width: 500px;*/
         margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
         transition: all 400ms ease;
         justify-content: end;
@@ -466,6 +510,8 @@
      .tarjeta1 {
         /*width: 500px;*/
         margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 20px;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
         transition: all 400ms ease;
@@ -499,8 +545,7 @@
 
 
 @media(max-width: 320px) {
-
-
+   
     h1 {
         font-size: 2rem;
     }
@@ -562,9 +607,15 @@
         padding: 15px;
 
     }
+    .carousel{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .tarjeta0 {    
         /*width: 500px;*/
         margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
         transition: all 400ms ease;
         justify-content: end;
@@ -596,6 +647,8 @@
      .tarjeta1 {
         /*width: 500px;*/
         margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 20px;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
         transition: all 400ms ease;
@@ -634,6 +687,11 @@
         text-decoration: none;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.5);
+        ul{
+            padding: 0px;
+            padding-top: 10px;
+
+        }
 
     }
 

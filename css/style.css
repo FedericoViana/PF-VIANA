@@ -258,10 +258,14 @@ div .card-body {
 /*-------Footer-------*/
 footer {
   background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: auto; }
+  footer .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: end; }
+  footer .d-map {
+    display: flex;
+    justify-content: center; }
   footer .footer1,
   footer .footer2 {
     font-family: 'Dosis', sans-serif;
@@ -407,7 +411,8 @@ body {
   .carousel {
     margin-left: 10px;
     margin-right: 10px; }
-  .tarjeta0, .tarjeta1 {
+  .tarjeta0,
+  .tarjeta1 {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px; }
@@ -463,6 +468,11 @@ body {
     footer ul {
       padding: 0;
       padding-top: 10px; }
+    footer .cont {
+      display: grid;
+      justify-content: space-between;
+      align-items: end;
+      justify-items: center; }
   .p-f {
     font-size: medium; }
   .btn {
@@ -555,6 +565,11 @@ body {
     footer ul {
       padding: 0;
       padding-top: 10px; }
+    footer .cont {
+      display: grid;
+      justify-content: space-between;
+      align-items: end;
+      justify-items: center; }
   .p-f {
     font-size: medium; }
   .btn {
@@ -698,6 +713,11 @@ body {
     footer ul {
       padding: 0px;
       padding-top: 10px; }
+    footer .cont {
+      display: grid;
+      justify-content: space-between;
+      align-items: end;
+      justify-items: center; }
   .p-f {
     font-size: small; }
   .btn {

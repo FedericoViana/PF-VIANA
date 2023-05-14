@@ -3,9 +3,17 @@
 footer {
 
     background-color: rgba(0, 0, 0, 0.5);
+    .cont{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+     justify-content: space-between;
+     align-items: end;
+    }
+    
+    .d-map{
+        display: flex;
+        justify-content: center;
+    }
+    
 
     .footer1,
     .footer2 {
@@ -13,14 +21,15 @@ footer {
         list-style: none;
         text-decoration: none;
         font-weight: bold;
-        display: flex; /*modifico luego de agregar los li para mantener la alineacion.*/
+        display: flex;
+        /*modifico luego de agregar los li para mantener la alineacion.*/
 
         a {
             text-decoration: none;
             color: $verde-azulado;
             padding: 5px;
 
-            &:hover{
+            &:hover {
                 color: $hover-icon;
             }
 

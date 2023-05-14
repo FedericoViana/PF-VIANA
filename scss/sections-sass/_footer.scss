@@ -13,6 +13,7 @@ footer {
         list-style: none;
         text-decoration: none;
         font-weight: bold;
+        display: flex; /*modifico luego de agregar los li para mantener la alineacion.*/
 
         a {
             text-decoration: none;

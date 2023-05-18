@@ -266,6 +266,8 @@ footer {
   footer .d-map {
     display: flex;
     justify-content: center; }
+    footer .d-map .mapa {
+      margin-bottom: 5px; }
   footer .footer1,
   footer .footer2 {
     font-family: 'Dosis', sans-serif;

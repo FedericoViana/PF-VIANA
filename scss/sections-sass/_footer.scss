@@ -3,17 +3,23 @@
 footer {
 
     background-color: rgba(0, 0, 0, 0.5);
-    .cont{
-    display: flex;
-     justify-content: space-between;
-     align-items: end;
+
+    .cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
     }
-    
-    .d-map{
+
+    .d-map {
         display: flex;
         justify-content: center;
+
+        .mapa {
+            margin-bottom: 5px;
+        }
+
     }
-    
+
 
     .footer1,
     .footer2 {
